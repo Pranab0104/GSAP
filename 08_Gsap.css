@@ -1,0 +1,76 @@
+@font-face {
+    font-family: nacho;
+    src: url(./Refont.woff2);
+}
+
+@font-face {
+    font-family: ps;
+    src: url(./Rejouice-Headline.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: nacho;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: burlywood;
+    position: relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1-content{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    position: relative;
+    z-index: 2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: rgb(35, 48, 105); */
+    padding: 3vw 3vw;
+}
+
+nav h3{
+    font-size: 1.5vw;
+    font-family: nacho;
+    font-weight: 100;
+}
+
+nav h4{
+    font-size: 1.5vw;
+    font-family: nacho;
+    font-weight: 100;
+}
+
+#page1-content  h1{
+    font-family: ps;
+    font-size: 26vw;
+    font-weight: 100;
+    line-height: 27vw;
+}
